@@ -1,6 +1,119 @@
 
-haader .logo {
+header .logo {
     position: absolute;
-    left:;
+    left:calc(50% - 40px);
+    top: 16px;
+}
+.container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .container ul {
+    display: flex;
+    align-items: center;
+}
+header .container ul li {
+    margin-right: 28px;
+}
+header .container ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+}
+
+/* M A I N */
+
+.main_banner {
+    background-color: #F0EFEB;
+    position: relative;
+}
+.main_banner .container {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 90px;
+
+}
+
+
+.main_banner .container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    max-width: 534px;
+}
+.main_banner .container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 481px;
+    padding-bottom: 33px;
+}
+.main_banner .container a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 8px 23px;
+}
+
+.main_banner .container img {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.container_second {
+    max-width: 1064px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 87px;
+
+
+}
+.container_second h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.container_second p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 47px;
+    max-width: 632px;
+}
+.container_second a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 
 }
