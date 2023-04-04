@@ -38,10 +38,7 @@ header .container ul li a {
     display: block;
     padding-top: 50px;
     padding-bottom: 90px;
-
 }
-
-
 .main_banner .container h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -71,20 +68,19 @@ header .container ul li a {
     border-radius: 100px;
     padding: 8px 23px;
 }
-
 .main_banner .container img {
     position: absolute;
     right: 10%;
     top: 3%;
 }
-
 .container_second {
     max-width: 1064px;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 87px;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container_second h3 {
     font-family: 'Roboto', sans-serif;
@@ -113,7 +109,4 @@ header .container ul li a {
     text-align: center;
     color: #000000;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-
 }
