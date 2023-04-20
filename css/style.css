@@ -110,3 +110,69 @@ header .container ul li a {
     color: #000000;
     text-decoration: none;
 }
+
+/* best sellers */
+
+.best_sellers {
+    padding-top: 10px;
+    padding-bottom: 248px;
+}
+
+.best_sellers .container {
+    max-width: 1055px;
+    margin: auto;
+    display: block;
+}
+.best_sellers .container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 52px;
+}
+
+.best_sellers_box_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.best_sellers .content a {
+    display: flex;
+    justify-content: center;
+}
+.best_sellers .content p {
+    max-width: 156px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 0 17px;
+}
+.best_sellers .content span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.best_sellers .content ins {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
