@@ -117,9 +117,8 @@ header .container ul li a {
     padding-top: 10px;
     padding-bottom: 248px;
 }
-
 .best_sellers .container {
-    max-width: 1055px;
+    max-width: 1095px;
     margin: auto;
     display: block;
 }
@@ -135,6 +134,15 @@ header .container ul li a {
 .best_sellers_box_content {
     display: flex;
     justify-content: space-between;
+}
+.best_sellers_box_content .content:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.best_sellers_box_content .content img {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .best_sellers .content a {
     display: flex;
@@ -170,17 +178,31 @@ header .container ul li a {
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
+    padding-bottom: 40px;
 }
 
 /* JS  */
 
-.best_sellers_box_content .owl-nav .owl-prev {
-    font-weight: 600;
+.best_sellers .owl-carousel .owl-nav button.owl-prev {
+    font-weight: 900;
     font-family: "Font Awesome 6 Free";
-    font-size: 30px;
-
-
+    font-size: 50px;
+    position: absolute;
+    left: -50px;
+    top: 215px;
 }
-.best_sellers_box_content .owl-nav .owl-prev:before {
-    content: "\f359";
+.best_sellers .best_sellers_box_content .owl-nav .owl-prev:before {
+    content: "\f053";
+}
+
+.best_sellers .owl-carousel .owl-nav button.owl-next {
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 50px;
+    position: absolute;
+    right: -50px;
+    top: 215px;
+}
+.best_sellers .best_sellers_box_content .owl-nav .owl-next:before {
+    content: "\f054";
 }

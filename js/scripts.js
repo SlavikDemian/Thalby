@@ -5,6 +5,7 @@ $(document).ready(function(){
         nav:true,
         autoplay: true,
         autoplayTimeout: 2000,
+        autoplayHoverPause: true,
         navText: [ '', '' ],
 
         responsive:{
@@ -15,6 +16,8 @@ $(document).ready(function(){
                 items:3
             }
         }
+
+
     });
 
 });
