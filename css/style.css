@@ -123,7 +123,7 @@ header .container ul li a {
     margin: auto;
     display: block;
 }
-.best_sellers .container h3 {
+.best_sellers h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -132,13 +132,10 @@ header .container ul li a {
     color: #000000;
     padding-bottom: 52px;
 }
-
 .best_sellers_box_content {
     display: flex;
     justify-content: space-between;
 }
-
-
 .best_sellers .content a {
     display: flex;
     justify-content: center;
@@ -173,6 +170,17 @@ header .container ul li a {
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
-
 }
 
+/* JS  */
+
+.best_sellers_box_content .owl-nav .owl-prev {
+    font-weight: 600;
+    font-family: "Font Awesome 6 Free";
+    font-size: 30px;
+
+
+}
+.best_sellers_box_content .owl-nav .owl-prev:before {
+    content: "\f359";
+}
