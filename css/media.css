@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1390px) {
+    .main_banner .container img {
+        right: 5%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1235px) {
+    .main_banner .container img {
+        right: 0%;
+    }
+    .owl-carousel {
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1110px) {
+    .main_banner .container img {
+        width: 550px;
+    }
+    header .container ul li:nth-child(1) {
+        margin-left: 30px;
+    }
+    .main_banner .container {
+        margin-left: 30px
+    }
+
+}
+
+
+@media only screen and (max-width: 1070px) {
+    .main_banner .container img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .main_banner .container img {
+        width: 460px;
+    }
+    .main_banner .container h1 {
+        position: relative;
+        z-index: 2;
+    }
+
+}
+@media only screen and (max-width: 999px) {
+    .owl-carousel .owl-item img {
+        width: 50%;
+        margin: auto;
+    }
+    .best_sellers .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .best_sellers .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .best_sellers_box_content .content {
+        margin-top: 6%
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    header .container ul li {
+        margin-right: 20px;
+    }
+    .main_banner .container p {
+        position: relative;
+        z-index: 2;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+    header .container .nav_links {
+        display: none;
+    }
+    .main_banner .container img {
+        right: 10%;
+        top: 31%;
+        width: auto;
+    }
+    .main_banner .container {
+        padding-bottom: 450px;
+        padding-top: 20px;
+    }
+    .main_banner .container h1 {
+        margin: 0 10px 10px 0;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .main_banner .container a {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .main_banner .container img {
+        right: 0;
+    }
+    .container_second p {
+        padding: 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main_banner .container img {
+        top: 35%;
+    }
+    .main_banner .container h1 {
+        font-size: 50px;
+        margin: 0 10px 10px 0;
+    }
+    .main_banner .container p {
+        font-size: 22px;
+    }
+    .main_banner .container {
+        padding-top: 1px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main_banner .container img {
+        top: 35%;
+        width: 110%;
+    }
+    header .container ul li {
+        margin-right: 10px;
+    }
+    .main_banner .container {
+        padding-bottom: 400px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .main_banner .container h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .main_banner .container img {
+        top: 32%;
+        width: 96%;
+    }
+    header .container ul li {
+        margin-right: 3px;
+    }
+    .main_banner .container {
+        padding-bottom: 350px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .main_banner .container img {
+        top: 38%;
+        width: 96%;
+    }
+    .main_banner .container {
+        padding-bottom: 330px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .main_banner .container h1 {
+        font-size: 40px;
+    }
+    .main_banner .container p {
+        font-size: 18px;
+        padding-bottom: 15px
+    }
+    .main_banner .container a {
+        padding: 5px 17px;
+        font-size: 15px
+    }
+    .main_banner .container img {
+        top: 38%;
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .main_banner .container img {
+        top: 38%;
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main_banner .container img {
+        top: 43%;
+        width: 100%;
+    }
+}
