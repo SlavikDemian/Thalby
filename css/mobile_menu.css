@@ -1,0 +1,59 @@
+
+nav.nav-open {
+    transform: translateX(0px);
+    border-radius: 0% 0% 30% 0%;
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    z-index: 10;
+}
+nav .menu-btn {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+    display: none;
+}
+nav .menu-btn .line {
+    padding: 0;
+    width: 30px;
+    background: black;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+}
+
+nav .menu-btn .line.line--1 {
+    width: 30px;
+    transform: rotate(0) translateY(0);
+}
+
+nav .menu-btn .line.line--1.line-cross {
+    width: 30px;
+    transform: rotate(45deg) translateY(10px);
+    background: rgba(0,0,0,0.6);
+}
+
+nav .menu-btn .line.line--2 {
+    width: 28px;
+    transform: translateX(0);
+}
+
+nav .menu-btn .line.line--2.line-fade-out {
+    width: 28px;
+    transform: translate(30px);
+    opacity: 0;
+}
+
+nav .menu-btn .line.line--3 {
+    width: 20px;
+    transform: rotate(0) translateY(0);
+}
+
+nav .menu-btn .line.line--3.line-cross {
+    width: 30px;
+    transform: rotate(-45deg) translateY(-10px);
+    background: rgba(0,0,0,0.6);
+}
